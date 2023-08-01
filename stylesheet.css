@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+ 
+}
+.header{
+    font-size: 25px;
+    margin-top: 20px;
+    color: #ffba08;
+    text-shadow: 0px 0px 20px;
+    
+}
+body{
+    margin: 0;
+    background-color: #03071e;
+}
+.row   {
+    width: 100%;
+    margin: 0;
+    
+
+}
+  
+ 
+p{
+    margin:23px 7px 10px 8px;
+    color: #f48c06;
+    font-weight: bold;
+    font-size: 15px;
+}
+.cont{
+    background-color: #6a040f;
+    box-shadow: 1px 1px 8px  #f48c06,
+                -1px -1px 8px  #f48c06;
+    border-radius: 4px;
+    margin: 15px;  
+    border: 1px solid #f48c06;    
+    
+}
+.beef,.Chicken,.Sushi {
+    font-size: 16px;
+    font-weight: 900;
+    text-align: center;
+    border-width: 5px;
+    width: 70px;
+    border: 1px solid ;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 4px;
+    float: right;
+    border-top: 0;
+    border-right: 0;
+
+}
+.beef{
+    background-color: #37061765;
+    color: #f48c06;
+}
+.Chicken{
+    background-color: #ffb700;
+    color: #370617;
+}
+.Sushi{
+    background-color: #001d3d;
+    color: #00d9ff;
+}
+.navbar{
+    background-color: #6a040f;
+    border: 0;
+    border-radius: 0;
+}
+h1{
+    color: #ffba08;
+    margin: 0;
+    text-shadow: 3px 3px #03071e;
+    
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #ffba08;
+}
+
+.navbar-header button.navbar-toggle{
+    clear: both;
+    margin-top: -33px;
+}
+.items{
+    color: #ffba08;
+
+}
+li:hover{
+    background-color: #03071e;
+  
+}
+div.navbar-brand{
+padding-top: 10px;
+}
+
+
+
